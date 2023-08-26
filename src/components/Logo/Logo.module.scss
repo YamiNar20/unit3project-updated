@@ -1,0 +1,26 @@
+.Logo {
+  margin: 20px 0 0 0;
+  height: 22vmin;
+  width: 32vmin;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: var(--col-8);
+  color: var(--col-1);
+  font-size: 4.6vmin;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 2.5vm;
+  border: .4vmin dashed var(--col-7);
+  
+  /* Apply the animation to the Logo component */
+  animation: bounce 2s infinite;
+  
+  /* Hover effect */
+  transition: transform 0.3s ease-in-out;
+}
+
+.Logo:hover {
+  transform: scale(1.1); /* Scale up on hover */
+}
